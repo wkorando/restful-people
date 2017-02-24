@@ -3,4 +3,4 @@ CLASSPATH=lib/accessors-smart-1.1.jar:lib/spring-aop-4.3.6.RELEASE.jar:lib/andro
 
 javac -cp $CLASSPATH -d out -sourcepath src $(find src -name '*.java')
 
-java -cp $CLASSPATH:out --add-opens java.base/java.lang.invoke=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED, --add-modules java.xml.bind com/example/RestfulPeopleApplication
+java -cp $CLASSPATH:out  com/example/RestfulPeopleApplication
