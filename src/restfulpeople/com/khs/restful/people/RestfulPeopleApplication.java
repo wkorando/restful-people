@@ -1,4 +1,4 @@
-package com.example;
+package com.khs.restful.people;
 
 import javax.sql.DataSource;
 
