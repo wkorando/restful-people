@@ -1,4 +1,4 @@
-module restfulpeople {
+open module restfulpeople {
 	requires spring.boot;
 	requires spring.boot.autoconfigure;
 	requires spring.context; 
@@ -7,6 +7,6 @@ module restfulpeople {
 	requires spring.data.rest.core;
 	requires java.sql;
 	
-	opens com.khs.restful.people.model;
-	opens com.khs.restful.people;
+//	opens com.khs.restful.people.model;
+//	opens com.khs.restful.people;
 }
